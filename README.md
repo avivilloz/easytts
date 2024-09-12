@@ -1,4 +1,4 @@
-# Easy TTS (Text-to-speech)
+# TTS Generator (Text-to-speech Generator)
 
 This Python package provides a simple interface for text-to-speech conversion using a multilingual TTS model, allowing users to generate speech from text with customizable voice characteristics.
 
@@ -19,13 +19,13 @@ This package is ideal for developers and researchers working on applications tha
 Run the following command in your python venv:
 
 ```sh
-pip install git+https://github.com/avivilloz/easytts.git@main#egg=easytts
+pip install git+https://github.com/avivilloz/tts_generator.git@main#egg=tts_generator
 ```
 
 Or add the following line to your project's `requirement.txt` file:
 
 ```
-git+https://github.com/avivilloz/easytts.git@main#egg=easytts
+git+https://github.com/avivilloz/tts_generator.git@main#egg=tts_generator
 ```
 
 And run the following command:
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ## How to use:
 
 ```python
-from easytts import generate_text_to_speech
+from tts_generator import generate_text_to_speech
 
 text_to_speak = "Hello, this is a test of the text-to-speech system."
 output_file = "output_speech.wav"

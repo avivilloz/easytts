@@ -1,0 +1,1 @@
+from .tts_generator import generate_text_to_speech

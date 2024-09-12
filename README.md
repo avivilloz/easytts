@@ -1,4 +1,4 @@
-# TTS Generator (Text-to-speech Generator)
+# TTS Generator (Text-to-Speech Generator)
 
 This Python package provides a simple interface for text-to-speech conversion using a multilingual TTS model, allowing users to generate speech from text with customizable voice characteristics.
 

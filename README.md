@@ -39,7 +39,6 @@ pip install -r requirements.txt
 ```python
 from tts import generate_text_to_speech
 
-# Example usage
 text_to_speak = "Hello, this is a test of the text-to-speech system."
 output_file = "output_speech.wav"
 speaker_sample = "path/to/speaker_sample.wav"

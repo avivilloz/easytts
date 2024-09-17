@@ -1,4 +1,4 @@
-# TTS Utils (Text-to-speech)
+# TTS Utils (Text-to-Speech)
 
 This Python package provides a simple interface for text-to-speech conversion using a multilingual TTS model, allowing users to generate speech from text with customizable voice characteristics.
 

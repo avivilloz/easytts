@@ -1,6 +1,8 @@
 from TTS.api import TTS
 
 
+__all__ = ["generate_text_to_speech"]
+
 tts = TTS(
     model_name="tts_models/multilingual/multi-dataset/xtts_v2",
     progress_bar=True,

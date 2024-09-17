@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="tts_generator",
+    name="tts_utils",
     version="0.1.0",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
@@ -17,7 +17,7 @@ setup(
     ),
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/avivilloz/tts_generator",
+    url="https://github.com/avivilloz/tts_utils",
     python_requires=">=3.9.0, <3.12",
     classifiers=[
         "Programming Language :: Python :: 3",
